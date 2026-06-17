@@ -3,7 +3,7 @@ package com.urlshortener.controller;
 import com.urlshortener.model.UrlRequest;
 import com.urlshortener.model.UrlResponse;
 import com.urlshortener.service.UrlShortenerService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
