@@ -1,0 +1,40 @@
+package com.urlshortener.model;
+
+public class UrlResponse {
+
+    private String originalUrl;
+    private String shortUrl;
+    private String shortCode;
+
+    public UrlResponse() {}
+
+    public UrlResponse(String originalUrl, String shortUrl, String shortCode) {
+        this.originalUrl = originalUrl;
+        this.shortUrl = shortUrl;
+        this.shortCode = shortCode;
+    }
+
+    public String getOriginalUrl() {
+        return originalUrl;
+    }
+
+    public void setOriginalUrl(String originalUrl) {
+        this.originalUrl = originalUrl;
+    }
+
+    public String getShortUrl() {
+        return shortUrl;
+    }
+
+    public void setShortUrl(String shortUrl) {
+        this.shortUrl = shortUrl;
+    }
+
+    public String getShortCode() {
+        return shortCode;
+    }
+
+    public void setShortCode(String shortCode) {
+        this.shortCode = shortCode;
+    }
+}
